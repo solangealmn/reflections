@@ -1,0 +1,84 @@
+Como a visualização das diferenças entre duas versões de um arquivo ajudou a ver o bug que
+foi introduzido?
+
+    A meu ver tornou o processo mais simples e direto. Após comparar os dois arquivos você logo
+percebe onde está o bug e depois é só abrir o arquivo e buscar dentro dele o local específico para
+fazer a correção. Bem mais prático!
+
+Como ter acesso fácil a todo o histórico de um arquivo, poderá torná-lo um
+Programador mais eficiente a longo prazo?
+
+    Acho que vou conseguir resolver eventuais problemas e bugs muito mais rápido, principalmente
+    para o trabalho em equipe. Então sempre que alguém precisar alterar o arquivo poderá colocar
+    a data e descrever o conteúdo da alteração e quem solicitou. Pode parecer simples mas faz muita diferença.
+
+O que você acha que são os prós e contras de escolher manualmente quando criar um
+Commit, como você faz no Git, vs tendo versões salvas automaticamente, como o Google
+Docs faz?
+
+    Acho que é sempre bom ter versões salvas, é bom ter as versões anteriores para analisar. Quando você pode
+escolher que versões vai salvar, como no Git, acho que precisa ser cauteloso e pensar bem, pode ser que
+futuramente você precise da versão que resolveu não salvar, mas acho bom escolher se você não dispõe de muito
+espaço em disco e só quer ter mesmo o histórico do que foi relevante.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar múltiplas
+Arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+    Acho que depende muito de que tipo de arquivos estamos versionando em cada ferramenta, acho que o Git é
+mais voltado para projetos tecnológicos e tenho a impressão que o Google Docs está mais voltado a criação
+colaborativa de documentos e suas funcionalidades estão alinhadas a este escopo.
+
+Como você pode usar os comandos git log e git diff para ver o histórico dos arquivos?
+
+    O git log mostra o histórico de manipulação do arquivo, e o git diff faz uma comparação entre uma versão e outra.
+
+Como usar o controle de versão pode torná-lo mais confiante para fazer alterações que
+Poderia quebrar algo?
+
+    Essa é uma resposta simples, se a alteração efetuada resultar em um bug ou se algo crítico deixar de
+funcionar você pode retornar a ultima versão antes da sua alteração e solucionar o problema em minutos, assim você
+evita que um sistema ou site fique horas fora do ar prejudicando os usuários que utilizam a aplicação, e ainda tem
+tempo para examinar e corrigir o que deu errado.
+
+Agora que você tem seu espaço de trabalho configurado, o que você quer tentar usar o Git?
+
+    Quero manter versões dos meus projetos para reaproveitar funcionalidades e estilos já criados em outros projetos, acho que vou
+ganhar produtividade usando o Git.
+
+Muitos sites e sistemas que permitem edições fazem controle de versão cada um orientado ao seu escopo e ao tipo de usuário
+que interage com cada sistema.
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre
+no Git, v. o salvamento automático de versões, como no Google Docs?
+
+No Git você pode salvar as versões do modo como você acha que será mais útil para o seu projeto no futuro,
+porém, você deve se atentar ao fato de que cada commit deverá pertencer a uma alteração. Assim você irá controlar
+realmente as modificações nos seus arquivos. Por outro lado o Google Docs não te permite fazer essa escolha ele irá salvar
+várias versões do seu documento.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros,
+como o Google Docs, tratam cada arquivo separadamente?
+
+Acho que é porquê no Git normalmente os arquivos contém códigos em linguagens diferentes mas que precisam um do outro para funcionar
+No Google Docs, normamente, você tem um documento de texto como um romance ou uma planilha, e estes arquivos normalmente
+são independentes uns dos outros.
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+Primeiro usamos o git log e listamos todas as alterações realizadas no repositório, em seguida, verificamos pelo commit qual o ID
+da alteração que desejamos consultar e depois é só usar o git diff com ID da versão desejada e ID da versão anterior a ela.
+Desse modo podemos ver tudo que foi alterado de uma versão para a outra.
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+Você tem a segurança de saber que nada foi perdido, e que você sempre pode usar as versões anteriores onde não
+havia bug, e assim com mais tranquilidade procurar nas alterações seguintes onde está o erro e fazer a correção.
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+
+Quero usar o Git não só como versionador de arquivos mas quero também manter um portfolio com os meus projetos publicados.
+
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+O Git cria um novo diretório, ele funciona como um estágio de controle ou seja os
+arquivos que você incluir nesse repositório serão versionados pelo git.

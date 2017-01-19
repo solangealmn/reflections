@@ -1,0 +1,34 @@
+O que acontece quando você inicializa um repositório? Por que você precisa fazer isso?
+
+O Git acessa o repositório e então ele será como um estágio de controle todos os arquivos
+dentro dele poderão ser manipulados e versionados pelo Git.
+
+Como a área de preparação é diferente do diretório de trabalho e do repositório?
+Qual o valor que você acha que ele oferece?
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+Usando o comando git diff para comparar os arquivos e visualizar as alterações de um arquivo para outra.
+Acho que dessa forma é possivel escolher com segurança quais alteraçãoes versionar.
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+Branches são úteis quando você precisa fazer uma alteração de grande impacto, em que haja risco de danificar a aplicação ou que mude
+um pouco o escopo inicial do projeto. Os branches ajudam porquê com eles é possível manter duas versões do mesmo projeto, por este motivo
+você se sente seguro para testar o que for preciso com a certezade que a versão original está segura.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Os diagramas são desenhados de acordo com o relacionamento entre um branch e outro e eles possuem um relacionamento parental.
+O que significa que cada branch é um clone de um projeto cada membro da equipe pode criar um e trabalhar, no final as
+todas as alterações podem ser unificadas e ainda temos o projeto original intacto.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+O resultado é a integração de uma nova funcionalidade incorporada ao projeto original, a sua representação no diagrama
+ilustra quais os dois branches foram mesclados para dar origem ao atual.
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+A mesclagem automatica é mais prática, porém o git pode não entender bem o que manter e o que descartar, então mesclar os
+branches manualmente pode ser mais trabalhoso, porém, é mais seguro e mais confiável. 
