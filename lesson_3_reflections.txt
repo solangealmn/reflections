@@ -4,8 +4,8 @@ Quando estivesse trabalhando no mesmo repositório com várias pessoas fisicamen
 Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
 Porquê podem haver conflitos de versão e para que todas as alterações façam sentido é melhor que eu possa verificar o que manter e o que remover nas alterações realizadas a cada commit.
 
-Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
-Eu usaria um branch para propor uma alteração significativa sem afetar o projeto inicial, iria clonar um repositorio para trabalhar nele localmente e usaria uma bifurcação para ter a possibilidade de verificar se todas as alterções realizadas fazem mesmo sentido e podem ser incluídas ao projeto.
+Descreva as diferenças entre fork, clones e branches. Quando você usaria um e não os outros?
+Eu usaria um branch para propor uma alteração significativa sem afetar o projeto inicial, iria clonar um repositorio para trabalhar nele localmente e usaria um fork para ter a possibilidade trabalhar em um projeto de outra pessoa sem que minhas alterações impactem no arquivo original.
 
 Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
 Trabalhar no projeto diretamente na sua máquina e evitar que suas alterações sejam anexadas ao projeto antes de estarem totalmente finalizadas.
