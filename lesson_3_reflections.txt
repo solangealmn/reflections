@@ -9,3 +9,6 @@ Eu usaria um branch para propor uma alteração significativa sem afetar o proje
 
 Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
 Trabalhar no projeto diretamente na sua máquina e evitar que suas alterações sejam anexadas ao projeto antes de estarem totalmente finalizadas.
+
+Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+Trabalhar no branch master é mais simples, porém, quando você tem várias pessoas trabalhando no mesmo projeto acho que é melhor criar um branch a parte, é mais seguro e mais organizado.
